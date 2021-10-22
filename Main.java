@@ -5,34 +5,33 @@ class Main {
   
       hero.player();
 
-      for(int i=1; i<=10;i++){
+      for(int i=1; i<=7;i++){
       hero.walk();
       }
 
-      for(int i=1; i<=6;i++){
+      for(int i=1; i<=2;i++){
         hero.run();
         }
 
-        for(int i=1; i<=30;i++){
-            hero.walk();
-            }
+        
         for(int i=1; i<=3;i++){
             hero.eat();
         }
-
         for(int i=1; i<=2;i++){
             hero.drink();
         }
-
         for(int i=1; i<=6;i++){
             hero.jump();
         }
-
+        
         for(int i=1; i<=5;i++){
             hero.sit();
         }
+        for(int i=1; i<=10;i++){
+            hero.walk();
+            }
 
-        for(int i=1; i<=2;i++){
+        for(int i=1; i<=1;i++){
             hero.attack();
         }
         hero.player();
@@ -48,6 +47,6 @@ class Main {
   
      // hero.player();
   
-   //Group 9: walk 10x, run 6x, walk 30x, eat 3x, drink 2x, jump 6x, sit 5x, attack 2x
+   //Group 9: walk 7x, run 2x, eat 3x, drink 2x, jump 6x, sit 5x, walk 10x, attack 2x
     }
   }

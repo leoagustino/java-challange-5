@@ -50,5 +50,6 @@ public class Hero extends Human {
     void attack() {
         checkEnergy();
         System.out.println(this.name +" Melakukan Penyerangan.... ");
+        energy -= 30;
     }
 }
