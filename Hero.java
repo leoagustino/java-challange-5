@@ -52,4 +52,17 @@ public class Hero extends Human {
         System.out.println(this.name +" Melakukan Penyerangan.... ");
         energy -= 30;
     }
+    /* Buat method untuk lari, makan, minum, lompat, dan duduk. Masing2 memiliki kriteria sebagai berikut:
+   - pasang method checkHealth() di dalam method yang akan dibuat
+   - Tampilkan pesan kegiatan yang sedang dilakukan, misal, jika lari: " sedang berlari..."
+   - ubah energy sesuai kegiatan yang dilakukan:
+    * eat = +20
+    * drink = +20
+    * jump = -20
+    * sit = +10
+    * attack = -30
+
+    Contoh method seperti method run() diatas.
+
+  */
 }
